@@ -10,3 +10,8 @@ window.load= function(){
 	console.log("in dup()");
     }
 }
+  
+    function dup(){
+	
+	console.log("in dup()");
+    }
