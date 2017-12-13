@@ -3,8 +3,10 @@ window.load= function(){
     document.getElementById("resultat").innerHTML = 5;
     console.log("in main js");
     alert("in main JS alert");
-function dup(x){
-  
-    console.log("in dup()");
-}
+
+    
+    function dup(){
+	
+	console.log("in dup()");
+    }
 }

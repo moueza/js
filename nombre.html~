@@ -16,9 +16,8 @@
     <!--TODO  file modif-->
     <div id="saisie">
       <form>
-<BR>	<a href="nombre.html">Nombre </a> <input type="plaintext">
-   <button onclick="dup()()">OK</button>
-    </form>
+<BR>	<a href="nombre.html">Nombre<input type="plaintext">
+	   </form>
     </div>
     <div id="resultat"></div>
   </body>
