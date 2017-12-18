@@ -19,14 +19,31 @@
     top: 0px;
     z-index: -1;
 	 }
-sqrFor{
+#sqrFor{
  position: absolute;
     left: 10px;
     top: 10px;
     z-index: 1;
 }
 
-sqrBack{
+#sqrBack{
+ position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+
+
+
+
+#starF{
+ position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+#starBack{
  position: absolute;
     left: 0px;
     top: 0px;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<!--  https://www.w3schools.com/cssref/tryit.asp?filename=trycss_zindex -->
+<img src="star.svg" width="100" height="140">
+
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+
+
+
+
+
+
+
+<!-- https://www.tutorialspoint.com/css/css_layers.htm-->
+  <div style="background-color:red; width:300px; height:100px; position:relative; top:10px; left:80px; z-index:2">
+      </div>
+      
+      <div style="background-color:yellow; width:300px; height:100px; position:relative; top:-60px; left:35px; z-index:1;">
+      </div>
+      
+      <div style="background-color:green; width:300px; height:100px; position:relative; top:-220px; left:120px; z-index:3;">
+      </div>
+</body>
+</html>
