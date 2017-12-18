@@ -4,3 +4,31 @@
 #textMoi{
     color: red;
 }
+
+
+//https://www.w3schools.com/cssref/pr_pos_z-index.asp
+#squareForegr{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+	 }
+#squareBackg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+	 }
+sqrFor{
+ position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+sqrBack{
+ position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
