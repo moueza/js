@@ -73,23 +73,32 @@
       <div id="saisie">
 	<form>
 	  <BR>	<a href="nombre.html">Nombre </a> <input type="plaintext">
-	  <button onclick="dup()()">OK</button>
+	  <button onclick="bouton0()">OK</button>
+	  <div id="boutonn"></div>
 	</form>
       </div>
       <div id="resultat"></div>
 
       <div>
 	<div>JS file</div>
-	<div></div>
+	<div id="jsfileResult"></div>
       </div>
       
     </div>
   </body>
   <script  type="text/javascript" language="text/javascript">
-    document.getElementById("resultat").innerHTML="5";
+    document.getElementById("resultat").innerHTML="0";
     
-    function dup(){	
-    console.log("in dup()");
+    function dup3(){	
+    console.log("in dup3()");
+    }
+
+
+     
+    function bouton0(){
+	document.getElementById("boutonn").innerHTML =  "bouton pressé";
+	//pr 5sec
+	console.log("in bouton0()");
     }
   </script>
 </html>
